@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "C6F/HeSIFGhTE/BDcurz2pV/eIg9XIKZdXvu4k8rSvT0eL7HqoiY/vYId19Z5VnNJBcMyQ14EfE67mqRpEtQcg==",
+  "success": true,
+  "projectFilePath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\T16779\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\system.linq.dynamic.core\\1.2.24\\system.linq.dynamic.core.1.2.24.nupkg.sha512",
+    "C:\\Users\\T16779\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

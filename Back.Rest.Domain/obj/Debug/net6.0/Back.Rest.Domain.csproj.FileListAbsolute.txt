@@ -1,0 +1,17 @@
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\Back.Rest.Domain.deps.json
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\Back.Rest.Domain.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\Back.Rest.Domain.pdb
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.csproj.AssemblyReference.cache
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.AssemblyInfoInputs.cache
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.AssemblyInfo.cs
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.csproj.CoreCompileInputs.cache
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\refint\Back.Rest.Domain.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.pdb
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\ref\Back.Rest.Domain.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\ItemsoftMX.Base.Domain.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\ItemsoftMX.Base.Domain.pdb
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\obj\Debug\net6.0\Back.Rest.Domain.csproj.CopyComplete
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\Back.Rest.Entities.dll
+D:\Personal\projects\AddressBook\Back.Rest\Back.Rest.Domain\bin\Debug\net6.0\Back.Rest.Entities.pdb

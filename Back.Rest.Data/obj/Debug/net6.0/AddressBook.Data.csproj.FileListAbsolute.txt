@@ -1,0 +1,12 @@
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\bin\Debug\net6.0\AddressBook.Data.deps.json
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\bin\Debug\net6.0\AddressBook.Data.dll
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\bin\Debug\net6.0\AddressBook.Data.pdb
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.csproj.AssemblyReference.cache
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.AssemblyInfoInputs.cache
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.AssemblyInfo.cs
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.csproj.CoreCompileInputs.cache
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.dll
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\refint\AddressBook.Data.dll
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\AddressBook.Data.pdb
+D:\Personal\projects\AddressBook\AddressBook\AddressBook.Data\obj\Debug\net6.0\ref\AddressBook.Data.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj": {}
+    "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj": {
+    "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
+        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
         "projectName": "Back.Rest.Data",
-        "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
+        "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
         "packagesPath": "C:\\Users\\T16779\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\obj\\",
+        "outputPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj": {
-                "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj"
+              "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj": {
+                "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj"
               },
-              "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
-                "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj"
+              "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
+                "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj"
               }
             }
           }
@@ -86,8 +86,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,18 +95,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj": {
+    "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj",
+        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj",
         "projectName": "Back.Rest.Domain",
-        "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj",
+        "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\Back.Rest.Domain.csproj",
         "packagesPath": "C:\\Users\\T16779\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Domain\\obj\\",
+        "outputPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +127,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
-                "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj"
+              "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
+                "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj"
               }
             }
           }
@@ -163,8 +162,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -173,18 +171,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
+    "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj",
+        "projectUniqueName": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj",
         "projectName": "Back.Rest.Entities",
-        "projectPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj",
+        "projectPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\Back.Rest.Entities.csproj",
         "packagesPath": "C:\\Users\\T16779\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Entities\\obj\\",
+        "outputPath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -222,8 +220,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -232,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

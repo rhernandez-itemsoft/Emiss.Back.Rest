@@ -69,7 +69,7 @@ namespace Back.Rest.Domain.Managers
         {
             uint userId = CustomClaims.GetUserId(userLogued);
 
-            if (entity is null) return entity;
+            if (entity is null) return new Country();
 
             entity.Enabled = viewModel.Enabled;
             entity.Code = viewModel.Code;

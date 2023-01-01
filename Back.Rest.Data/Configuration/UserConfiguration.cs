@@ -17,8 +17,6 @@ namespace Back.Rest.Data.Configuration
             entity.Property(field => field.FirstName).IsRequired().HasMaxLength(150);
             entity.Property(field => field.LastName).IsRequired().HasMaxLength(150);
             entity.Property(field => field.MLastName).IsRequired().HasMaxLength(150);
-
-
           
         }
     }

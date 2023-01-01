@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ye1mbfJK8SBP+u1O8LTPrpcSFTTHs7kCc605RxM3gRha7h0swH664JaTo7SXsTh18cIozH8y239ax2LRQeHFQ==",
+  "dgSpecHash": "UCRIcfoUM18HeCG/4aphQaXa+c7C+p0loQyiVxnHLk+FgnR/ja4d2imOYGZK4neL9udztNSpMXrEfc/puCihQA==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Api\\Back.Rest.Api.csproj",
+  "projectFilePath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Api\\Back.Rest.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T16779\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\T16779\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

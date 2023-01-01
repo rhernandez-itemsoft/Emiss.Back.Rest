@@ -825,6 +825,7 @@
       },
       "Back.Rest.Data/1.0.0": {
         "dependencies": {
+          "Back.Rest.Domain": "1.0.0",
           "Back.Rest.Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.1",

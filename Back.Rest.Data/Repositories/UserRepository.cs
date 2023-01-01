@@ -41,7 +41,7 @@ namespace Back.Rest.Data.Repositories
                 {
                     q = q.Where("Enabled=false");
                 }
-                return q.AsQueryable().Include("Group").Include("UserDetail");
+                return q.AsQueryable().Include("AddressBook");
             });
             return t;
         }

@@ -17,11 +17,11 @@ namespace Back.Rest.Domain.Filters
 
         public int? CountryId { get; set; }
 
-        public string Code { get; set; }
+        public string Code { get; set; } = string.Empty;
 
-        public string Abreaviation { get; set; }
+        public string Abreaviation { get; set; } = string.Empty;
 
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         /// <summary>
         /// Filters the Name of specific logic.

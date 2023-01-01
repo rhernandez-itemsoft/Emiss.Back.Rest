@@ -37,8 +37,6 @@ namespace Back.Rest.Api
 
             CorsExtension.Add(services, Configuration);
 
-            
-            
             services.AddDbContext<MsSqlContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BackRest")));
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 

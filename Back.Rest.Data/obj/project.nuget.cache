@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BQbuVQE3FZaGolROLO5wkjsiGFdr+JSRtRB65ruZj58X5hqufZaFw4U8yLPgpMMHvuq0Vy9L98RWvinjZdNqSA==",
+  "dgSpecHash": "plAUZZ+q9Eg06Q8yqbxAyDklJxbaPFnFPgpMIoVIVkt1ZbBpUQPv1vAZNRQNYcCehGUZB+9wDAAQHOubmNYl4g==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\projects\\AddressBook\\Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
+  "projectFilePath": "D:\\Personal\\projects\\AddressBook\\Emiss.Back.Rest\\Back.Rest.Data\\Back.Rest.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T16779\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\T16779\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

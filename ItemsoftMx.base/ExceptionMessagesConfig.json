@@ -1,0 +1,20 @@
+﻿{
+  "NullReferenceException": "Error al procesar la petición (NullReference)",
+  "FileNotFoundException": "No se encontró el archivo",
+  "OverflowException": "Error al procesar la petición (Overflow)",
+  "OutOfMemoryException": "Error al procesar la petición (OutOfMemory)",
+  "InvalidCastException": "Error al procesar la petición (InvalidCast)",
+  "ObjectDisposedException": "Error al procesar la petición (ObjectDisposed)",
+  "UnauthorizedAccessException": "Acceso no autorizado",
+  "NotImplementedException": "Error al procesar la petición (NotImplemented)",
+  "NotSupportedException": "Error al procesar la petición (NotSupported)",
+  "InvalidOperationException": "Operacion Inválida",
+  "TimeoutException": "Tiempo de espera excedido",
+  "ArgumentException": "Error al procesar la petición (Argument)",
+  "StackOverflowException": "Error al procesar la petición (StackOverflow)",
+  "FormatException": "Error de formato",
+  "IOException": "Error al procesar la petición (IO)",
+  "IndexOutOfRangeException": "Error al procesar la petición (IndexOutOfRange)",
+  "DbUpdateException": "Error al actualizar el registro",
+  "DefaultException": "Ocurrió un error al procesar la petición."
+}

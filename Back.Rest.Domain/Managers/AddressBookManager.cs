@@ -50,7 +50,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>AddressBook entity</returns>
         protected override AddressBook PrepareAddData(AddressBookViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             AddressBook entity = _mapper.Map<AddressBookViewModel, AddressBook>(viewModel);
             entity.CreatedAt = DateTime.UtcNow;
@@ -67,7 +67,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>AddressBook entity</returns>
         protected override AddressBook PrepareUpdateData(AddressBook entity, AddressBookViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             if (entity is null) return new AddressBook();
 
@@ -146,7 +146,7 @@ namespace Back.Rest.Domain.Managers
                 return null;
             }
 
-            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Companies");
+            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Libreta de direcciones");
         }
 
     }

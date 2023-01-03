@@ -8,9 +8,9 @@ namespace Back.Rest.Domain.Filters
     /// </summary>
     public class UserFilter : IFilter
     {
-        public uint? UserId { get; set; }
+        public int? UserId { get; set; }
 
-        //public Nullable<uint> GroupId { get; set; }
+        //public Nullable<int> GroupId { get; set; }
 
         //public string FullName { get; set; }
 

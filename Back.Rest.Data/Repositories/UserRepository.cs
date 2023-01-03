@@ -23,28 +23,28 @@ namespace Back.Rest.Data.Repositories
         }
 
         
-        /// <summary>
-        /// Get User where filter matched
-        /// </summary>
-        /// <param name="id">User Identifier</param>
-        /// <param name="ct">Cancellation Token</param>
-        /// <returns>Item requested</returns>
-        //public async Task<User> GetByIdCustomAsync(uint id, CancellationToken ct = default(CancellationToken))
-        public async Task<IQueryable<User>> GetAllAsync(CancellationToken ct)
-        {
-            //return await _context.User.Include("Group");
+        ///// <summary>
+        ///// Get User where filter matched
+        ///// </summary>
+        ///// <param name="id">User Identifier</param>
+        ///// <param name="ct">Cancellation Token</param>
+        ///// <returns>Item requested</returns>
+        ////public async Task<User> GetByIdCustomAsync(int id, CancellationToken ct = default(CancellationToken))
+        //public async Task<IQueryable<User>> GetAllAsync(CancellationToken ct)
+        //{
+        //    //return await _context.User.Include("Group");
 
-            var t = await Task.Run(() =>
-            {
-                var q = (from b in _context.Set<User>() select b);
-                if (this.HasSoftDelete())
-                {
-                    q = q.Where("Enabled=false");
-                }
-                return q.AsQueryable().Include("AddressBook");
-            });
-            return t;
-        }
+        //    var t = await Task.Run(() =>
+        //    {
+        //        var q = (from b in _context.Set<User>() select b);
+        //        if (this.HasSoftDelete())
+        //        {
+        //            q = q.Where("Enabled=false");
+        //        }
+        //        return q.AsQueryable().Include("AddressBook");
+        //    });
+        //    return t;
+        //}
 
 
         /// <summary>

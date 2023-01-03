@@ -10,9 +10,9 @@ namespace Back.Rest.Entities.ViewModels
     public class CountryViewModel : EntityBase
     {
         public int CountryId { get; set; }
-        public string Code { get; set; }  = string.Empty;
-        public string Abbreviation { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
+        public string? Code { get; set; }  = string.Empty;
+        public string? Abbreviation { get; set; } = string.Empty;
+        public string? Name { get; set; } = string.Empty;
 
         public virtual ICollection<StateViewModel>? States { get; set; }
 

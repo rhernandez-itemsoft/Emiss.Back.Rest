@@ -50,7 +50,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>State entity</returns>
         protected override State PrepareAddData(StateViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             State entity = _mapper.Map<StateViewModel, State>(viewModel);
             entity.CreatedAt = DateTime.UtcNow;
@@ -67,7 +67,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>State entity</returns>
         protected override State PrepareUpdateData(State entity, StateViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             if (entity is null) return new State();
 
@@ -139,7 +139,7 @@ namespace Back.Rest.Domain.Managers
                 return null;
             }
 
-            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Companies");
+            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Estados");
         }
 
     }

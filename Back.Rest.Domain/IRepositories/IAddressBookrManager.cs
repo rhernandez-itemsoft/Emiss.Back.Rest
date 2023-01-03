@@ -8,5 +8,8 @@ namespace Back.Rest.Domain.IRepositories
     /// </summary>
     public interface IAddressBookRepository : IBaseRepository<AddressBook>
     {
+
+        new
+       Task<IQueryable<AddressBook>> GetAllAsync(CancellationToken ct);
     }
 }

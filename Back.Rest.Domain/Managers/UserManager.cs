@@ -54,7 +54,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>User entity</returns>
         protected override User PrepareAddData(UserViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             User entity = _mapper.Map<UserViewModel, User>(viewModel);
             entity.CreatedAt = System.DateTime.UtcNow;
@@ -72,7 +72,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>User entity</returns>
         protected override User PrepareUpdateData(User entity, UserViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
             if (entity is null) return entity;
             entity.FirstName = viewModel.FirstName;
             entity.LastName = viewModel.LastName;

@@ -50,7 +50,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>City entity</returns>
         protected override City PrepareAddData(CityViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             City entity = _mapper.Map<CityViewModel, City>(viewModel);
             entity.CreatedAt = DateTime.UtcNow;
@@ -67,7 +67,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>City entity</returns>
         protected override City PrepareUpdateData(City entity, CityViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             if (entity is null) return entity;
 
@@ -139,7 +139,7 @@ namespace Back.Rest.Domain.Managers
                 return null;
             }
 
-            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Companies");
+            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Ciudades");
         }
 
     }

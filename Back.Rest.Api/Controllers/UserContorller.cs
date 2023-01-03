@@ -1,14 +1,10 @@
-﻿using Back.Rest.Api.Constants;
-using Back.Rest.Domain.Filters;
+﻿using Back.Rest.Domain.Filters;
 using Back.Rest.Domain.IManagers;
 using Back.Rest.Entities.Models;
 using Back.Rest.Entities.ViewModels;
-using ItemsoftMX.Base.Domain.Constants;
 using ItemsoftMX.Base.Domain.Controllers;
-using ItemsoftMX.Base.Domain.RequestFilters;
 using ItemsoftMX.Base.Domain.Utils;
 using ItemsoftMX.Base.Domain.ViewModel;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -48,7 +44,7 @@ namespace Back.Rest.Api.Controllers
         [ProducesResponseType(200, Type = typeof(UserViewModel))]
         [ProducesResponseType(404)]
         [ProducesResponseType(500, Type = typeof(ErrorMessageViewModel))]
-        public override async Task<IActionResult> Get(uint id, CancellationToken ct = default(CancellationToken))
+        public override async Task<IActionResult> Get(int id, CancellationToken ct = default(CancellationToken))
         {
             try
             {
@@ -176,7 +172,7 @@ namespace Back.Rest.Api.Controllers
         [ProducesResponseType(200, Type = typeof(UserViewModel))]
         [ProducesResponseType(404)]
         [ProducesResponseType(500, Type = typeof(ErrorMessageViewModel))]
-        public override async Task<IActionResult> Put(uint id, [FromBody] UserViewModel input, CancellationToken ct = default(CancellationToken))
+        public override async Task<IActionResult> Put(int id, [FromBody] UserViewModel input, CancellationToken ct = default(CancellationToken))
         {
             try
             {
@@ -221,7 +217,7 @@ namespace Back.Rest.Api.Controllers
         [ProducesResponseType(200, Type = typeof(UserViewModel))]
         [ProducesResponseType(404)]
         [ProducesResponseType(500, Type = typeof(ErrorMessageViewModel))]
-        public override async Task<IActionResult> Patch(uint id, [FromBody] UserViewModel input, CancellationToken ct = default(CancellationToken))
+        public override async Task<IActionResult> Patch(int id, [FromBody] UserViewModel input, CancellationToken ct = default(CancellationToken))
         {
             try
             {
@@ -265,7 +261,7 @@ namespace Back.Rest.Api.Controllers
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
         [ProducesResponseType(500, Type = typeof(ErrorMessageViewModel))]
-        public override async Task<ActionResult> Delete(uint id, CancellationToken ct = default(CancellationToken))
+        public override async Task<ActionResult> Delete(int id, CancellationToken ct = default(CancellationToken))
         {
             try
             {

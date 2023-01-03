@@ -1,10 +1,5 @@
 ﻿using ItemsoftMX.Base.Domain.Filters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Dynamic.Core;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Back.Rest.Domain.Filters
 {
@@ -19,11 +14,11 @@ namespace Back.Rest.Domain.Filters
 
         public int? CountryId { get; set; }
 
-        public string Code { get; set; } = string.Empty;
+        public string? Code { get; set; }
 
-        public string Abreaviation { get; set; } = string.Empty;
+        public string? Abbreviation { get; set; }
 
-        public string Name { get; set; } = string.Empty;
+        public string? Name { get; set; }
 
         /// <summary>
         /// Filters the Name of specific logic.

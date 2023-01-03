@@ -1,8 +1,8 @@
-﻿using Back.Rest.Api.Configuration;
+﻿
+
+using Back.Rest.Api.Configuration;
 using Back.Rest.Data;
-using ItemsoftMX.Base.Data.Repositories;
 using ItemsoftMX.Base.Domain.Filters;
-using ItemsoftMX.Base.Domain.IRepositories;
 using ItemsoftMX.Base.Domain.RequestFilters;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
@@ -38,7 +38,7 @@ namespace Back.Rest.Api
             CorsExtension.Add(services, Configuration);
 
             services.AddDbContext<MsSqlContext>(options => options.UseSqlServer(Configuration.GetConnectionString("BackRest")));
-            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            //services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
             //AuthorizationExtension.Add(services, Configuration);
 

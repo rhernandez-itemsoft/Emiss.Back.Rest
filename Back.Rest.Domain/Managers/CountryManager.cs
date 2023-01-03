@@ -50,7 +50,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>Country entity</returns>
         protected override Country PrepareAddData(CountryViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             Country entity = _mapper.Map<CountryViewModel, Country>(viewModel);
             entity.CreatedAt = DateTime.UtcNow;
@@ -67,7 +67,7 @@ namespace Back.Rest.Domain.Managers
         /// <returns>Country entity</returns>
         protected override Country PrepareUpdateData(Country entity, CountryViewModel viewModel, ClaimsPrincipal userLogued)
         {
-            uint userId = CustomClaims.GetUserId(userLogued);
+            int userId = CustomClaims.GetUserId(userLogued);
 
             if (entity is null) return new Country();
 
@@ -139,7 +139,7 @@ namespace Back.Rest.Domain.Managers
                 return null;
             }
 
-            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Companies");
+            return await this.ToPdf(pagingParameter.ExportFields, result.Item1, "Paises");
         }
 
     }

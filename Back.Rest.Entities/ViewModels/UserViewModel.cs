@@ -14,6 +14,15 @@ namespace Back.Rest.Entities.ViewModels
         public string LastName { get; set; } = string.Empty;
         public string MLastName { get; set; } = string.Empty;
 
+        public string? FullName
+        {
+            get => FirstName + " " + LastName + " " + MLastName;
+            set
+            {
+                FirstName = value ?? "";
+            }
+        }
+
         public virtual ICollection<AddressBookViewModel>? AddressBook { get; set; }
     }
 }

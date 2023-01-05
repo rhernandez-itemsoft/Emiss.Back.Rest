@@ -11,11 +11,6 @@ namespace Back.Rest.Entities.ViewModels
 
         public int UserId { get; set; }
 
-        public string UserFullName
-        {
-            get => User != null ? User.FirstName + " " + User.LastName + " " + User.MLastName : "";
-        }
-
         //address can only have assigned one user
         public virtual UserViewModel? User { get; set; }
 

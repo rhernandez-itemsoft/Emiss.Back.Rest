@@ -39,7 +39,7 @@ namespace Back.Rest.Data.Repositories
                 {
                     q = q.Where("Enabled=false");
                 }
-                return q.AsQueryable().Include("User");
+                return q.AsQueryable().Include("User").Include("Country").Include("State").Include("City");
             });
             return t;
         }

@@ -1,0 +1,12 @@
+# Build results
+Back.Rest.Api/[Bb]in/
+Back.Rest.Data/[Bb]in/
+Back.Rest.Domain/[Bb]in/
+Back.Rest.Entities/[Bb]in/
+Back.Rest.Api/[Oo]bj/
+Back.Rest.Data/[Oo]bj/
+Back.Rest.Domain/[Oo]bj/
+Back.Rest.Entities/[Oo]bj/
+
+
+.vs/

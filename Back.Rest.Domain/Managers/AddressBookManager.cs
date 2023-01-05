@@ -6,6 +6,7 @@ using Back.Rest.Domain.IRepositories;
 using Back.Rest.Entities.Models;
 using Back.Rest.Entities.ViewModels;
 using ItemsoftMX.Base.Domain.Converters;
+using ItemsoftMX.Base.Domain.Filters;
 using ItemsoftMX.Base.Domain.Managers;
 using ItemsoftMX.Base.Domain.Utils;
 using Microsoft.Extensions.Options;
@@ -88,6 +89,40 @@ namespace Back.Rest.Domain.Managers
 
             return entity;
         }
+
+        /// <summary>
+        /// Gets all address book.
+        /// </summary>
+        /// <returns>The all address book that matched.</returns>
+        /// <param name="pagingParameter">Paging parameter.</param>
+        /// <param name="filter">Filter.</param>
+        /// <param name="ct">Ct.</param>
+        public override async Task<Tuple<List<AddressBookViewModel>, PagedResult<AddressBook>>> GetAllAsync(PagingParameter pagingParameter, IFilter filter, CancellationToken ct = default(CancellationToken))
+        {
+            Tuple<List<AddressBookViewModel>, PagedResult<AddressBook>> response = await base.GetAllAsync(pagingParameter, filter, ct);
+            
+            foreach (AddressBookViewModel row in response.Item1)
+            {
+                if (row.Country != null)
+                {
+                    row.Country.States = null;
+                    row.Country.Cities = null;
+                }
+                if (row.City != null)
+                {
+                    row.City.State = null;
+                    row.City.Country = null;
+                }
+                
+                if (row.State != null)
+                {
+                    row.State.Country = null;
+                    row.State.Cities = null;
+                }
+            }
+            return response;
+        }
+
 
         /// <summary>
         /// Gets all resources.
